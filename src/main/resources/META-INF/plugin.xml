@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>ua.romenkost.varreplacer</id>
+    <name>Var Remover</name>
+    <vendor email="romen.kost.2332@gmail.com">KOSTCORP</vendor>
+    <description><![CDATA[
+        <a href="https://github.com/RomenKost/var-replaser-intellij-plugin/">Github</a>
+        <br/>
+        <br/>
+        This plugin was created to replace var keywords with class names.
+        <br/>
+        <br/>
+        Features:
+        <ul>
+            <li>Shift + F1: replace var keywords with class names</li>
+        </ul>
+        ]]></description>
+    <actions>
+        <action id="ua.romenkost.varreplacer.VarReplacer" class="ua.romenkost.varreplacer.VarReplacer" text="ReplaceVar"
+                description="Replace all var keywords with class name">
+            <add-to-group group-id="JavaGenerateGroup2" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift F1"/>
+        </action>
+    </actions>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+</idea-plugin>
