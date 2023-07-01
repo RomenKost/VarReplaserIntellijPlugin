@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>ua.romenkost.varreplacer</id>
-    <name>Var Remover</name>
-    <vendor email="romen.kost.2332@gmail.com">KOSTCORP</vendor>
+    <name>Var Replacer</name>
+    <vendor email="romen.kost.2332@gmail.com">RomenKost</vendor>
     <description><![CDATA[
         <a href="https://github.com/RomenKost/var-replaser-intellij-plugin/">Github</a>
         <br/>
